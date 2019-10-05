@@ -1,0 +1,745 @@
+body
+{
+    direction: ltr;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 0 ;
+    margin: 0 ;
+}
+body h1
+{
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: #0c2e60;
+    font-family: 'Poppins', sans-serif;
+}
+body h2
+{
+    font-weight: 800;
+
+    text-transform: capitalize;
+    color: #0c2e60;
+    font-family: poppins,sans-serif;
+    font-size: 42px;
+    line-height: 1.222;
+    margin-bottom: 20px;
+}
+body p
+{
+    color: #777;
+}
+.nav-bar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem 1rem 3rem;
+
+
+}
+.nav-bar .header-bar
+{
+    display: flex;
+    flex-direction: row;
+
+  justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    color: #0c2e60;
+
+}
+
+.for-bg-only{
+    background-image: url(https://colorlib.com/preview/theme/etrain/img/banner_bg.png);
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 68%;
+    background-position: top right;
+}
+
+.b1
+{
+
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+
+    padding: 13px 39px;
+   /*    mosh sha3`aleh*/
+    max-width: 170px;
+
+    transition: 0.5s;
+    background-image: linear-gradient(to left,#ee390f 0%,#f9b700 51%,#ee390f 100%);
+    background-size: 200% auto;/*ma fhmtha*/
+    }
+.b1:hover
+{
+    background-position: right center;
+
+}
+
+.intro-section .container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: center;
+
+
+}
+.intro-section .for-bg-only
+{
+    background-image: url("https://colorlib.com/preview/theme/etrain/img/banner_bg.png" );
+}
+.intro-section .container .intro-text
+{
+    margin: 1rem 3rem 1rem 3rem;
+    max-width: 550px;
+
+}
+.intro-section .container .intro-text .capitalise
+{
+    color: #556172;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.intro-section .container .intro-text h1
+{
+    width: 600px;
+}
+
+
+.intro-section .container .intro-text .b2
+{
+    background-color: white;
+    padding: 13px 39px;
+    border-radius: 50px;
+    border: 1px solid #0c2e60;
+    color: #0c2e60;
+    font-size: 14px;
+}
+
+
+
+/*-----------------------------------------------------------*/
+.feature-section
+{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.feature-section .inner-con
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.feature-section .flex-cards
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.feature-section  .big-card
+{
+    margin: 1rem 3rem 1rem 3rem;
+    max-width: 300px;
+}
+
+
+.feature-section  .flex-cards .card
+{
+    margin-top: 3rem;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+
+
+    border: 1px solid #f0f4f6;
+
+    padding:50px 20px 35px;
+
+    transition: 0.6s;
+
+}
+
+.feature-section  .flex-cards .card:hover
+{
+    border-color: #ee390f;
+
+}
+
+.feature-section  .flex-cards .card:hover .card-img i
+{
+    background-image: linear-gradient(to left,#ee390f 0%,#f9b700 51%,#ee390f 100%);
+    background-size: 200%;
+
+}
+
+
+
+
+.feature-section .flex-cards .card .card-img
+
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+}
+
+.feature-section .flex-cards .card .card-img i {
+
+    color: #0c2e60;
+    font-size: 3rem;
+
+    background-color: #d8e2cf;
+    border-radius: 100px;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /*padding-top: 1rem;*/
+}
+
+
+.feature-section .flex-cards .card   h3
+{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width:200px;/*changes the content but not the margin why???--------------*/
+    text-align: center;
+    color: #0c2e60;
+    font-family: "Poppins", sans-serif;
+}
+
+.feature-section .flex-cards .card  p
+{
+    max-width: 220px;
+    text-align: center;
+}
+
+/*!*------------------------------------------*/
+
+.reverse-pic
+{
+    margin: 5rem 0 2rem 0;
+}
+
+.reverse-pic .flex-cont
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+    align-items: center;
+}
+
+.reverse-pic .flex-cont .hard-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 460px;
+    margin-left: 4rem;
+
+}
+.reverse-pic .flex-cont .hard-div .about-us
+{
+    display: flex;
+    flex-direction: initial;
+}
+
+.reverse-pic .flex-cont .about-us .color
+{
+    border-bottom: #ee390f solid .1rem;
+    width: 55px;
+    margin-bottom: 17px;
+    margin-right: .5rem;
+
+}
+.reverse-pic .flex-cont .about-us p
+{
+    font-weight: 900;
+}
+
+
+
+.reverse-pic .flex-cont .hard-div h1
+
+{
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #0c2e60;
+    font-family: poppins,sans-serif;
+    font-size: 42px;
+    line-height: 1.222;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 450px;
+}
+
+.reverse-pic .flex-cont .hard-div .writings .wr
+{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+.reverse-pic .flex-cont .hard-div .writings .wr i
+{
+    color: #5a6268;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+/*---------------------------5--------------------------*/
+.counter-section
+{
+    margin: 5rem 0 5rem 0;
+}
+.counter-section .flex-only
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(to right,#ee390f ,#f9b700 );
+    height: 20rem;
+}
+.counter-section .flex-only .packs
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem 0 3.5rem;
+
+}
+
+.counter-section .flex-only .packs p
+{
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.counter-section .flex-only .packs .space-color
+{
+    border-bottom: white solid 2px;
+    width: 100px;
+    margin-bottom: 0;
+}
+
+
+.counter-section .flex-only .packs h1
+{
+    font-size: 1.5rem;
+    color: white;
+
+}
+/*-------------------------------------------------------*/
+
+.special-courses-section .flex-it
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.special-courses-section .flex-it p
+{
+    text-align: center;
+    color: #556172;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 11px;
+    margin-bottom: 26px;
+}
+.special-courses-section .flex-it h2
+{
+    text-align: center;
+}
+
+.special-courses-section .flex-it .color
+
+{
+    border-bottom: #ee390f solid .15rem;
+    width: 70px;
+
+}
+.special-courses-section .flex-it .packs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4rem;
+
+}
+.special-courses-section .flex-it .packs .card
+{
+    max-width: 399px;
+    border: solid 1px rgba(173, 181, 189, 0.33);
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    box-shadow: #5a6268;
+}
+
+.special-courses-section .flex-it .packs .card img
+{
+    width: 400px;
+}
+
+.special-courses-section .flex-it .packs .card .course-n-price
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.special-courses-section .flex-it .packs .card .course-n-price .course
+{
+    background-color: #ff663b;
+    color: white;
+    font-weight: 600;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+}
+.special-courses-section .flex-it .packs .card .course-n-price .course:hover
+{
+    background-color: rgba(255, 102, 69, 0.82);
+}
+
+
+.special-courses-section .flex-it .packs .card .course-n-price .price
+{
+    color:#ff663b ;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.special-courses-section .flex-it .packs .card h2
+{
+    font-size: 20px;
+    transition: .5s;
+    text-align: initial;
+}
+.special-courses-section .flex-it .packs .card h2:hover
+{
+    color: #ff663b;
+    cursor: pointer;
+}
+
+.special-courses-section .flex-it .packs .card p
+{
+    line-height: 1.1rem;
+    font-weight: normal;
+    text-align:initial;
+    color: #888888;
+    text-transform: initial;
+}
+.special-courses-section .flex-it .packs .card .space
+{
+    padding-top: 23px;
+    margin-top: 23px;
+    border-top: 1px solid #edeff2;
+}
+
+.special-courses-section .flex-it .packs .card .info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+}
+.special-courses-section .flex-it .packs .card .info .person
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.special-courses-section .flex-it .packs .card .info .person img
+{
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.special-courses-section .flex-it .packs .card .info .person .name
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0c2e60;
+}
+.special-courses-section .flex-it .packs .card .info .person .name p
+{
+    margin:.2rem 0 .2rem 0 ;
+}
+
+.special-courses-section .flex-it .packs .card .info .person .name .blue
+{
+    color: #0c2e60;
+    font-weight: bolder;
+}
+
+.special-courses-section .flex-it .packs .card .info .rating .stars .yellow
+{
+    color: #e2a500;
+    font-size: .6rem;
+}
+
+.special-courses-section .flex-it .packs .card .info .rating .stars .black
+{
+    font-size: .6rem;
+    color: #b1bba8;
+
+}
+/*---------------------------------------------------------------------------------------*/
+
+.advance-feature-section .flex-R
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.advance-feature-section .flex-R .left-side
+{
+    width: 470px;
+}
+
+
+.advance-feature-section .flex-R .left-side .title
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+}
+
+.advance-feature-section .flex-R .left-side .title .color
+{
+    border-bottom: #ee390f solid .1rem;
+    width: 55px;
+    margin-bottom: 17px;
+    margin-right: .5rem;
+}
+
+.advance-feature-section .flex-R .left-side h2
+{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 38px;
+    position: relative;
+    margin-top: 19px;
+    width: 600px;
+}
+.advance-feature-section .flex-R .left-side .boxes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.advance-feature-section .flex-R .left-side .boxes .block
+{
+    width: 240px;
+}
+
+.advance-feature-section .flex-R .left-side .boxes .block i
+{
+
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #fdeae5;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.advance-feature-section .flex-R .left-side .boxes .block h1
+{
+    font-size: 1.2rem;
+
+}
+
+/*--------------------------*/
+
+.blog-section .flex-it
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.blog-section .flex-it .info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.blog-section .flex-it .info .color
+{
+    border-bottom: #ee390f solid .15rem;
+    width: 80px;
+    margin-bottom: 17px;
+    margin-top: 0;
+
+}
+
+.blog-section .flex-it .cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.blog-section .flex-it .cards .card
+{
+    width: 360px;
+    border: #f8f9fa 1px solid;
+    box-shadow: none;
+    transition: .5s;
+}
+.blog-section .flex-it .cards .card:hover
+{
+    box-shadow: 2px 10px 50px -19px #eae8e5;
+
+}
+
+.blog-section .flex-it .cards .card img
+{
+    width: 360px;
+    margin-bottom:0;
+}
+
+.blog-section .flex-it .cards .card .hover-this
+{
+    margin-top: 0;
+    padding: 35px 30px 23px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    text-align: initial;
+    max-width: 360px;
+    border: #adb5bd;
+
+
+}
+
+
+.blog-section .flex-it .cards .card .hover-this .word
+{
+    background-color: #ff663b;
+    color: white;
+    font-weight: 600;
+    padding: .5rem 1rem .5rem 1rem;
+
+    transition: 0.5s;
+    max-width: 50px;
+    margin-bottom: 20px;
+}
+.blog-section .flex-it .cards .card .hover-this .word:hover
+{
+    background-color:rgba(255, 102, 69, 0.82); ;
+}
+
+
+.blog-section .flex-it .cards .card .hover-this h1
+{
+    font-size: 1rem;
+    transition: .5s;
+}
+
+.blog-section .flex-it .cards .card .hover-this h1:hover
+{
+    color: rgba(255, 102, 69, 0.82);
+
+}
+
+
+
+.blog-section .flex-it .cards .card .hover-this .space
+{
+    padding-top: 23px;
+    margin-top: 23px;
+    border-top: 1px solid #edeff2;
+}
+
+.blog-section .flex-it .cards .card .hover-this .status
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.blog-section .flex-it .cards .card .hover-this .status i
+{
+    color: #adb5bd;
+    margin-right: .7rem;
+}
+
+.blog-section .flex-it .cards .card .hover-this .status p
+{
+    margin-right: 3rem;
+}
+
+/*----------------------------------------------------------*/
+.footer
+{
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 2rem;
+}
+.footer .space
+{
+    margin-top: 100px;
+    border-top: 1px solid #d6d8db;
+
+}
+.footer .container
+{
+    width: unset;
+}
+
+
+
+.course-container
+{
+    width: 300px;
+    margin: auto;
+}
+.container
+{
+   max-width: 1300px;
+    margin: auto;
+}
